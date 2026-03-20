@@ -98,9 +98,9 @@ TC3
 ├── TC3_Supervisioned.py
 ├── requirements.txt
 
-📊 📌 Interpretação dos resultados
+# 📊 📌 Interpretação dos resultados
 
-🔍 Avaliação do Modelo Supervisionado
+## 🔍 Avaliação do Modelo Supervisionado
 
 O modelo Random Forest apresentou uma acurácia de aproximadamente 69,7%, indicando que ele consegue classificar corretamente a maioria dos voos quanto à ocorrência de atraso.
 
@@ -124,11 +124,11 @@ F1-score: 0.25
 
 Isso indica que o modelo tem bom desempenho para identificar voos sem atraso, mas apresenta dificuldade em identificar corretamente voos atrasados.
 
-⚖️ Desbalanceamento
+## ⚖️ Desbalanceamento
 
 O desempenho inferior na classe de atraso ocorre devido ao desbalanceamento do dataset, onde há significativamente mais voos sem atraso do que com atraso.
 
-🔲 Análise da Matriz de Confusão
+## 🔲 Análise da Matriz de Confusão
 
 Verdadeiros negativos: 38.062
 
@@ -140,7 +140,7 @@ Verdadeiros positivos: 2.887
 
 O modelo apresenta um número elevado de falsos negativos, ou seja, muitos voos atrasados estão sendo classificados como não atrasados.
 
-📌 Conclusão
+## 📌 Conclusão
 
 O modelo é eficaz para identificar voos pontuais, mas ainda precisa de melhorias para prever atrasos, especialmente devido ao desbalanceamento dos dados e à complexidade do problema.
 
