@@ -16,7 +16,7 @@ O dataset contém informações de voos nos Estados Unidos, incluindo:
 
 ⚠️ O arquivo `flights.csv` disponibilizado em:
 https://drive.google.com/drive/folders/1aS7exW5N0qq1uIxvIBcAfc18OHojOMjj?usp=sharing
-não foi versionado devido ao seu tamanho.  
+não foi versionado devido ao seu tamanho e limitação do github.
 
 
 ---
@@ -97,3 +97,50 @@ TC3
 ├── TC3_Modelo_Supervisionado.ipynb
 ├── TC3_Supervisioned.py
 ├── requirements.txt
+
+📊 📌 Interpretação dos resultados
+
+🔍 Avaliação do Modelo Supervisionado
+
+O modelo Random Forest apresentou uma acurácia de aproximadamente 69,7%, indicando que ele consegue classificar corretamente a maioria dos voos quanto à ocorrência de atraso.
+
+Ao analisar as métricas por classe, observa-se:
+
+Para a classe 0 (voos sem atraso):
+
+Precision: 0.78
+
+Recall: 0.85
+
+F1-score: 0.81
+
+Para a classe 1 (voos com atraso):
+
+Precision: 0.30
+
+Recall: 0.21
+
+F1-score: 0.25
+
+Isso indica que o modelo tem bom desempenho para identificar voos sem atraso, mas apresenta dificuldade em identificar corretamente voos atrasados.
+
+⚖️ Desbalanceamento
+
+O desempenho inferior na classe de atraso ocorre devido ao desbalanceamento do dataset, onde há significativamente mais voos sem atraso do que com atraso.
+
+🔲 Análise da Matriz de Confusão
+
+Verdadeiros negativos: 38.062
+
+Falsos positivos: 6.862
+
+Falsos negativos: 10.916
+
+Verdadeiros positivos: 2.887
+
+O modelo apresenta um número elevado de falsos negativos, ou seja, muitos voos atrasados estão sendo classificados como não atrasados.
+
+📌 Conclusão
+
+O modelo é eficaz para identificar voos pontuais, mas ainda precisa de melhorias para prever atrasos, especialmente devido ao desbalanceamento dos dados e à complexidade do problema.
+
