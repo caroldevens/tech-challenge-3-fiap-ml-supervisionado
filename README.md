@@ -122,6 +122,9 @@ Recall: 0.21
 
 F1-score: 0.25
 
+<img width="963" height="401" alt="image" src="https://github.com/user-attachments/assets/eb2be30e-80ca-4f8c-9717-804afe30d64a" />
+
+
 Isso indica que o modelo tem bom desempenho para identificar voos sem atraso, mas apresenta dificuldade em identificar corretamente voos atrasados.
 
 ## ⚖️ Desbalanceamento
@@ -139,6 +142,11 @@ Falsos negativos: 10.916
 Verdadeiros positivos: 2.887
 
 O modelo apresenta um número elevado de falsos negativos, ou seja, muitos voos atrasados estão sendo classificados como não atrasados.
+
+<img width="952" height="538" alt="image" src="https://github.com/user-attachments/assets/3f6bbca6-abc9-4177-8844-b3fffefc26ad" />
+Importância das Features:
+<img width="958" height="717" alt="image" src="https://github.com/user-attachments/assets/23225f15-4769-42f1-b74c-6a2c48232359" />
+
 
 ## 📌 Conclusão
 
