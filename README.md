@@ -88,3 +88,12 @@ Motivação:
 
 ## 📁 Estrutura do Projeto
 
+TC3
+│
+├── Data
+│ ├── airlines.csv
+│ ├── airports.csv
+│
+├── TC3_Modelo_Supervisionado.ipynb
+├── TC3_Supervisioned.py
+├── requirements.txt
